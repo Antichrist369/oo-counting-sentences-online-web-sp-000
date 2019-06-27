@@ -30,9 +30,8 @@ class String
   end
 
   def count_sentences
-    if self.count_sentences? ( "num" )
-      return num 
-    end
+    new_array = self.split(/[.?!]).reject {|string| string.empty?}
+    return new_array.lengh 
 
   end
 end
