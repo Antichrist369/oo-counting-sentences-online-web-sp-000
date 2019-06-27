@@ -30,6 +30,9 @@ class String
   end
 
   def count_sentences
+    if self.count_sentences? ( "num" )
+      return num 
+    end
 
   end
 end
